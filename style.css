@@ -1,0 +1,64 @@
+/*global layout setup */
+
+        *{
+            box-sizing: border-box;
+
+        }
+
+        body{
+            margin: 0;
+            padding: 0 75px 0 75px;
+            text-align: center;
+            font-family: Calistoga, sans-serif;
+            align-items: center;
+            background-color: 	#F5F5F5;
+
+        }
+
+/*image setup */
+
+        img.thumbnails  {
+            margin: 15px;
+            padding: 15px ;
+
+        }
+
+/* layout */
+        
+        .list {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+            margin: 0;
+            padding:0; 
+
+        }
+   
+
+/* form input setup */ 
+
+        input{
+            margin: 30px 0 10px 0;
+            width: 400px;
+            height: 30px;
+         
+        }
+
+        ::placeholder{
+            font-size: 16px;
+        }
+/* list style */
+
+        ul{
+            margin: 0;
+            padding: 0;
+
+        }
+        li{
+            list-style: none;
+            padding:0;
+            margin: 0;
+            
+        }
